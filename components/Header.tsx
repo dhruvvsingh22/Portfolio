@@ -13,7 +13,8 @@ const Header = () => {
 
   const links = [
     { path: "/", name: "Home" },
-    { path: "/projects", name: "Projects" },
+    // { path: "/projects", name: "Projects" },
+    { path: "https://github.com/dhruvvsingh22", name: "Projects" },
     { path: "/contact", name: "Contact" },
   ];
 
