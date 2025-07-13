@@ -16,9 +16,9 @@ const Description = () => {
           IT industry. I specialize in Data Structures and Algorithms as
           well as Web and App Development. My strong problem-solving skills and
           adaptability make me a fast learner, allowing me to quickly grasp new
-          concepts and technologies. I'm always eager to tackle challenging
+          concepts and technologies. I&apos;m always eager to tackle challenging
           projects, collaborate with teams, and create impactful solutions that
-          drive innovation. Let's build something amazing together!
+          drive innovation. Let&apos;s build something amazing together!
         </div>
         <div className="buttonContainer">
           <Link href="/contact">

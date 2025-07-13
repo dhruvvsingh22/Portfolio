@@ -33,7 +33,7 @@ const Form = () => {
         <MessageSquare size={20} className="icon" />
       </div>
       <div className="button">
-        <div className="buttonText">Let's Talk</div>
+        <div className="buttonText">Let&apos;s Talk</div>
       </div>
     </div>
   );
