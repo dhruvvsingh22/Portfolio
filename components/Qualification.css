@@ -1,0 +1,64 @@
+/* Qualification.css */
+.qualificationContainer {
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  font-family: "Outfit_Fallback_cfacd3";
+}
+
+.sectionsContainer {
+  display: flex;
+  gap: 40px;
+}
+@media screen and (max-width: 850px) {
+  .sectionsContainer {
+    flex-direction: column;
+  }
+}
+.section {
+  width: 500px;
+}
+@media screen and (max-width: 500px) {
+  .section {
+    width: 100%;
+  }
+}
+.sectionTitle {
+  font-family: "Outfit";
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  color: #000; /* Replace with your desired primary color */
+  font-weight: 600;
+}
+
+.experience,
+.education {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.position,
+.internship,
+.course {
+  font-weight: 500;
+}
+
+.dates,
+.grade {
+  margin-top: 10px;
+}
+
+.spacer {
+  height: 10px;
+}
+@media screen and (max-width: 500px) {
+  .infoContainer {
+    flex-direction: column;
+  }
+}

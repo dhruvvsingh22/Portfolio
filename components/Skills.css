@@ -1,0 +1,59 @@
+/* Skills.css */
+
+.container {
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.divider {
+  border-width: 1px;
+  margin-bottom: 1rem;
+  border-color: #ccc; /* Replace with your desired border color */
+  margin-top: 1rem;
+}
+
+.skillsContainer,
+.toolsContainer {
+  display: flex;
+  gap: 10px;
+  width: 750px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 750px) {
+  .skillsContainer,
+  .toolsContainer {
+    width: 100%;
+  }
+}
+.skill,
+.tool {
+  font-weight: 500;
+  background-color: hsl(
+    var(--primary)
+  ); /* Replace with your desired primary color */
+  border-width: 1px;
+  border-radius: 100px;
+  padding: 10px;
+  color: white;
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: -ms-fit-content;
+  width: fit-content;
+}
+.marginTop {
+  margin-top: 1rem;
+}

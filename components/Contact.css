@@ -1,0 +1,114 @@
+/* Contact.css */
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1550px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1100px) {
+  .contactContainer {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 610px) {
+  .contactContainer {
+    align-items: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 230px;
+}
+@media screen and (max-width: 1100px) {
+  .header {
+    margin-left: 0px;
+  }
+}
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.headerTitleLine {
+  width: 30px;
+  height: 2px;
+  background-color: #ff6347; /* Primary color */
+}
+
+.headerTitleText {
+  color: #ff6347; /* Primary color */
+}
+
+.mainTitle {
+  font-size: 72px;
+  line-height: 4.5rem;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 720px) {
+  .mainTitle {
+    font-size: 40px;
+  }
+}
+.description {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #6d6d6d; /* Secondary color */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+}
+@media screen and (max-width: 1100px) {
+  .content {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.contactDetails {
+  margin-left: 100px;
+}
+@media screen and (max-width: 1100px) {
+  .contactDetails {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contactDetails {
+    margin-left: 10px;
+  }
+}
+.contactItem {
+  display: flex;
+  margin-bottom: 3.5rem;
+  align-items: center;
+}
+
+.contactIcon {
+  color: #ff6347; /* Primary color */
+}
+
+.contactText {
+  margin-left: 50px;
+}
+
+.formContainer {
+  margin-right: 100px;
+}
+@media screen and (max-width: 1100px) {
+  .formContainer {
+    margin-right: 0px;
+  }
+}

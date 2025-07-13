@@ -1,0 +1,98 @@
+/* Services.css */
+
+.servicesContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 2.75rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.servicesContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (max-width: 1320px) {
+  .servicesContent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.serviceCard {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 30px;
+  display: flex;
+  height: 300px;
+  width: 424px;
+  border-color: hsl(var(--border));
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px; /* Apply to cards except the first one */
+}
+@media screen and (max-width: 1320px) {
+  .serviceCard {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .serviceCard {
+    width: 90%;
+    height: -moz-fit-content; /* For Firefox */
+    height: fit-content; /* Standard */
+  }
+}
+@media screen and (max-width: 380px) {
+  .serviceCard {
+    margin-top: 50px;
+  }
+}
+.serviceIcon {
+  color: hsl(var(--primary)); /* Replace with your desired primary color */
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 430px) {
+  .serviceIcon {
+    width: 50px;
+    height: 50px;
+  }
+}
+.serviceContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+@media screen and (max-width: 430px) {
+  .serviceContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.serviceTitle {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: -30px;
+}
+
+.serviceDescription {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.marginLeftNone {
+  margin-left: 0;
+}

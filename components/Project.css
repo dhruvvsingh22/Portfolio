@@ -1,0 +1,95 @@
+/* Project.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 2.75rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .projectList {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .projectList {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.projectCard {
+  border: 1px solid hsl(var(--border)); /* Use an appropriate border color */
+  padding: 20px;
+  width: 433px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  .projectCard {
+    width: 100%;
+  }
+}
+.projectImageContainer {
+  background-color: hsl(
+    var(--tertiary)
+  ); /* Use an appropriate tertiary color */
+  width: 385px;
+  height: 300px;
+}
+@media screen and (max-width: 450px) {
+  .projectImageContainer {
+    width: 100%;
+  }
+}
+.projectImageWrapper {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+.projectImage {
+  width: 247px;
+  height: 250px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 450px) {
+  .projectImage {
+    width: 100%;
+  }
+}
+
+.projectTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.projectDescription {
+  color: hsl(var(--primary)); /* Use an appropriate color */
+  font-size: 1.125rem;
+  margin-top: 5px;
+  text-align: justify;
+}

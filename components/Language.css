@@ -1,0 +1,54 @@
+/* Language.css */
+.languageContainer {
+  font-family: "Outfit_Fallback_cfacd3";
+}
+
+.serviceQualityTitle {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.serviceDescription {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 32px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+  .infoContainer {
+    flex-direction: column;
+  }
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+@media screen and (max-width: 420px) {
+  .infoColumn {
+    width: 100%;
+  }
+}
+.infoRow {
+  display: flex;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iconLanguage {
+  color: hsl(var(--primary));
+}
+
+.infoText {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}

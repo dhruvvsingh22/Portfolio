@@ -1,0 +1,70 @@
+/* Form.css */
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  border-color: #d1d5db; /* Border color */
+  border-style: solid;
+  color: black;
+  width: 600px;
+  height: 35px;
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 30px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 610px) {
+  .inputField {
+    width: 100%;
+  }
+}
+.inputField.large {
+  height: 90px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: #f9fafb; /* Background color */
+  width: 490px;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 610px) {
+  .input {
+    width: 100%;
+  }
+}
+.input.large {
+  height: 70px;
+}
+
+.icon {
+  color: #ff6347; /* Primary color */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: #ff6347; /* Primary color */
+  border-radius: 9999px;
+  justify-content: center;
+  height: 54px;
+  width: 150px;
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+}
+
+.buttonText {
+  margin: 0;
+}
