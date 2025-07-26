@@ -12,13 +12,12 @@ const Description = () => {
         <div className="mainTitle">Hello I am</div>
         <div className="subTitle">Dhruv Singh</div>
         <div className="descriptionText">
-          A passionate Software Developer with over two year of experience in the
-          IT industry. I specialize in Data Structures and Algorithms as
-          well as Web and App Development. My strong problem-solving skills and
-          adaptability make me a fast learner, allowing me to quickly grasp new
-          concepts and technologies. I&apos;m always eager to tackle challenging
-          projects, collaborate with teams, and create impactful solutions that
-          drive innovation. Let&apos;s build something amazing together!
+          I&apos;m a passionate Software Developer with over two years of experience in the IT industry. 
+          I specialize in Data Structures and Algorithms, as well as Web and App Development.
+           My strong problem-solving abilities and adaptability make me a quick learner, 
+           allowing me to grasp new concepts and technologies with ease. I&apos;m always excited to take on 
+           challenging projects, collaborate with teams, and build impactful solutions that drive innovation.
+            Let&apos;s create something amazing together!
         </div>
         <div className="buttonContainer">
           <Link href="/contact">
@@ -29,7 +28,7 @@ const Description = () => {
               </div>
             </div>
           </Link>
-          <a href="Dhruv Singh.pdf" download="Dhruv Resume" target="_blank">
+          <a href="Dhruv_Singh_Resume.pdf" download="Dhruv Resume" target="_blank">
             <div className="downloadButton">
               <div>Download CV</div>
               <div className="icon">

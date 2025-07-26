@@ -3,6 +3,9 @@ import "./Skills.css";
 
 const Skills = () => {
   const skills = [
+    { name: "C#" },
+    { name: "C++" },
+    { name: "C" },
     { name: "Data Structure and Algorithm" },
     { name: "Next JS" },
     { name: "React JS" },
@@ -14,9 +17,8 @@ const Skills = () => {
     { name: "DBMS" },
     { name: "Computer Networks" },
     { name: "Python" },
-    { name: "Tizen OS" },
-    { name: "C#" },
-    { name: "C++" },
+    { name: "Tizen NUI" },
+    { name: ".NET" },
     { name: "Java" },
     { name: "System Design" },
     { name: "MY SQL" },

@@ -4,7 +4,7 @@ import {
   RiLinkedinFill,
   RiGithubFill,
   RiFacebookFill,
-  RiInstallFill,
+  RiInstagramFill,
 } from "react-icons/ri";
 
 import Link from "next/link";
@@ -12,25 +12,25 @@ import { useState } from "react";
 // import styles from "./CssStyles/Socials.css";
 
 const icons = [
+  // {
+  //   path: "/",
+  //   name: <RiYoutubeFill />,
+  // },
   {
-    path: "/",
-    name: <RiYoutubeFill />,
-  },
-  {
-    path: "/",
+    path: "https://www.linkedin.com/in/dhruv-singh-47859721a/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/dhruvvsingh22",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/profile.php?id=100025018313695",
     name: <RiFacebookFill />,
   },
   {
-    path: "/",
-    name: <RiInstallFill />,
+    path: "https://www.instagram.com/_dhruv_22_/",
+    name: <RiInstagramFill />,
   },
 ];
 
