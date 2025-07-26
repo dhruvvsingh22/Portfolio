@@ -41,9 +41,9 @@ const Contact = () => {
             <div className="contactText">+91 9318315410</div>
           </div>
         </div>
-        <div className="formContainer">
+        {/* <div className="formContainer">
           <Form />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -13,17 +13,13 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "https://github.com/DHRUV616",
+    path: "https://github.com/dhruvvsingh22",
     name: <RiGithubFill />,
   },
   {
     path: "https://www.linkedin.com/in/dhruv-singh-47859721a/",
     name: <RiLinkedinFill />,
   },
-  // {
-  //   path: "/",
-  //   name: <RiYoutubeFill />,
-  // },
   {
     path: "https://www.instagram.com/_dhruv_22_/",
     name: <RiInstagramFill />,
